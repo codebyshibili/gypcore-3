@@ -3229,7 +3229,7 @@ aside.widget.widget-tag-cloud a:hover,
 	border-radius: 20px;
 }
 label.error {
-	background: red;
+	background:#f05223;
 	color: white;
 	border-radius: 0px 0 10px 10px;
 	margin-bottom: 15px;
@@ -3272,4 +3272,62 @@ textarea.form-control{
 }
 .form-control:focus::placeholder{
 	opacity: 1;
+}
+
+
+
+
+  .footer-icon {
+    color: #ffffff !important;
+    font-size: 20px;
+  }
+
+
+
+  .side-sticky-buttons {
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.side-sticky-buttons a {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.call-btn {
+  background: #dc3545; /* Bootstrap danger red */
+}
+
+.whatsapp-btn {
+  background: #25D366;
+}
+
+.side-sticky-buttons a:hover {
+  transform: scale(1.08);
+}
+
+
+.footer-icon {
+  color: #f05223;
+  font-size: 18px;
+  margin-top: 4px;
+}
+
+i {
+  display: inline-block !important;
+  font-style: normal !important;
 }
